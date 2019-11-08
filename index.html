@@ -37,6 +37,11 @@
         <a-asset-item id="b-mtl" src="model_obj/b/b.mtl"></a-asset-item>
     </a-assets>
   
+   <a-assets>
+        <a-asset-item id="vm-obj" src="model_obj/vm/vm.obj"></a-asset-item>
+        <a-asset-item id="vm-mtl" src="model_obj/vm/vm.mtl"></a-asset-item>
+    </a-assets>
+  
     <!-- マーカーの読み込み -->
     
     <a-marker preset="custom"  type="pattern" url="pattern-004 (1).patt">
@@ -57,6 +62,10 @@
     
     <a-marker preset="custom"  type="pattern" url="pattern-Sprite-0002.patt">
         <a-obj-model id="tyuri" src="#tyuri-obj" mtl="#tyuri-mtl" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-obj-model>     
+    </a-marker>
+  
+    <a-marker preset="custom"  type="pattern" url="pattern-055.patt">
+        <a-obj-model id="vm" src="#vm-obj" mtl="#vm-mtl" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-obj-model>     
     </a-marker>
   
     <a-entity camera></a-entity>

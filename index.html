@@ -42,6 +42,11 @@
         <a-asset-item id="vm-mtl" src="model_obj/vm/vm.mtl"></a-asset-item>
     </a-assets>
   
+  <a-assets>
+        <a-asset-item id="nz-obj" src="model_obj/nz/nz.obj"></a-asset-item>
+        <a-asset-item id="nz-mtl" src="model_obj/nz/nz.mtl"></a-asset-item>
+    </a-assets>
+  
     <!-- マーカーの読み込み -->
     
     <a-marker preset="custom"  type="pattern" url="pattern-004 (1).patt">
@@ -66,6 +71,10 @@
   
     <a-marker preset="custom"  type="pattern" url="pattern-055.patt">
         <a-obj-model id="vm" src="#vm-obj" mtl="#vm-mtl" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-obj-model>     
+    </a-marker>
+  
+  <a-marker preset="custom"  type="pattern" url="pattern-056.patt">
+        <a-obj-model id="nz" src="#nz-obj" mtl="#nz-mtl" position="0 -3 0" scale="2 2 2" rotation="0 0 0"></a-obj-model>     
     </a-marker>
   
     <a-entity camera></a-entity>
